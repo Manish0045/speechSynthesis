@@ -1,4 +1,33 @@
-html, body {
+body {
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
+  background: darkblue;
+  color: white;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height:250px;
+  width: 400px;
+  margin: auto;
+  margin-top: 250px;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  opacity: 0.8;
+  border-radius: 15px;
+  color: red;
+  box-shadow: 2px 3px 5px red;
+}
+
+.container>button{
+  height: 130px;
+  border-radius: 50%;
+  cursor:pointer;
+  background: #547985;
+  color: white;
+  border: 3px solid black;
 }
